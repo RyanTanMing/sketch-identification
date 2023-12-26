@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(rgb(60, 60, 255),rgb(52, 255, 52),yellow);
+}
+#showsketch {
+    float: right;
+}
+h1 {
+    color: darkcyan;
+    background-color: darkturquoise;
+}
+p {
+color: lightcoral;
+font-size: 25px;
+}
+canvas{
+    border: 5px solid brown;
+border-radius: 10px;
+animation-name: test;
+animation-duration: 2s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes test{
+    from {box-shadow:2px 3px 38px beige}
+    to {box-shadow:2px 3px 38px rgb(189, 94, 0)}
+}
